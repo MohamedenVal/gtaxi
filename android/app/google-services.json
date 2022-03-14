@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "345902005663",
+    "project_id": "gtaxi-261d7",
+    "storage_bucket": "gtaxi-261d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345902005663:android:235c2f599944daed5d11aa",
+        "android_client_info": {
+          "package_name": "com.rimcode.gtaxi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345902005663-7l7kefo7ok0trktefplusv02pqra25a8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAws8QKJR6bNjKum0wYL8OSMvpVj2GDb5c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345902005663-7l7kefo7ok0trktefplusv02pqra25a8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
