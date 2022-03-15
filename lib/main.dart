@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 // import 'dart:async';
 
 import 'package:gtaxi/screens/homepage.dart';
+import 'package:gtaxi/screens/loginpage.dart';
 // import 'package:fireba';
 
 void main() {
@@ -54,9 +55,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
+        fontFamily: 'Brand-regular',
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home: LoginPage(),
     );
   }
 }
