@@ -24,6 +24,19 @@
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This app needs access to location when in the background to track the progress of your ride.</string>
+	<key>NSLocationTemporaryUsageDescriptionDictionary</key>
+	<dict>
+		<key>YourPurposeKey</key>
+		<string>The App requires temporary access to the device's precise location for drivers to find you.</string>
+	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app needs access to location to find nearby drivers.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
